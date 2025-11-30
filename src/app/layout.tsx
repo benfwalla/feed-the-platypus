@@ -15,7 +15,6 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Feed the Platypus",
-  description: "Drag the ball to feed the platypus!",
 };
 
 export default function RootLayout({

@@ -242,10 +242,10 @@ export default function Home() {
       {/* Stats Footer */}
       <div className="absolute bottom-0 left-0 right-0 p-6 text-center">
         <p className="text-gray-800">
-          You've fed the platypus {myCount ?? 0} times
+          You've fed the platypus {myCount ?? 0} {(myCount ?? 0) === 1 ? 'time' : 'times'}
         </p>
         <p className="text-gray-800">
-          The world has fed the platypus {globalCount ?? 0} times
+          The world has fed the platypus {globalCount ?? 0} {(globalCount ?? 0) === 1 ? 'time' : 'times'}
         </p>
       </div>
     </div>
